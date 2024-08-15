@@ -2,8 +2,6 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
-  throw new Error("This is a test error thrown on purpose!");
-
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600">
       <h1 className="text-6xl font-bold text-white mb-4">Hello, World!</h1>
